@@ -1,0 +1,95 @@
+<!--Page II -->
+<!-- About me and contact details page-->
+<!--I start of by linking my stylesheet and bootstrap.Then in the H1 tag I place the title of my page -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Me</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style2.css" />
+  </head>
+  <body>
+    <!-- I then Add a Navbar to the top of the page-->
+    <nav class="col-md-3 navbar">
+      <ul>
+        <li><a href="../HTML/index.html">HomePage</a></li>
+        <li><a href="../Webpages/index2.html">About Me</a></li>
+        <li><a href="../Webpages/index3.html">Categories of Fishing</a></li>
+        <li><a href="../HTML/forms.html">Contact me</a></li>
+        <li><a href="../HTML/saved.html">Save later</a></li>
+      </ul>
+    </nav>
+    <!--I then add h1 tags followed by a ul to list things about me -->
+    <h1 class="col-md-12 head">About me</h1>
+    <div class="col-md-10 aboutme">
+      <ul>
+        <li>I was born In Cape Town</li>
+        <li>Besides fishing my other passions are</li>
+        <li>Rugby</li>
+        <li>Cricket</li>
+        <li>4X4s</li>
+        <li>
+          One of my goals is to travel around africa in a 4x4 and go fishing in
+          different locations
+        </li>
+        <li>
+          I like Coffee especially strong Coffee here is a guide on to make
+          strong Coffee
+          <a href="https://enjoyjava.com/how-to-make-strong-coffee/"
+            >EnjoyJava</a
+          >
+        </li>
+        <li>I dislike noisy places</li>
+      </ul>
+      <!--I then create another h2 followed by an ul to add my details below I add p tags and a form to ask the user to submit 
+      if  the would like to subscribe to my news letter-->
+    </div>
+    <div class="col-md-10 contact">
+      <h2>Contact Me</h2>
+      <ul>
+        <li>Name: Zubair Hoosain Kumandan</li>
+        <li>
+          Email:<a href="mailto:zubair.perrywood@gmail.com"
+            >zubair.perrywood@gmail.com</a
+          >
+        </li>
+      </ul>
+    </div>
+    <div class="col-md-10 part3">
+      <p>
+        If you would to subscribe to our Newsletter please fill out the form
+        below
+      </p>
+
+      <form action="info">
+        <label for="fname">First Name</label>
+        <br />
+        <input type="text" id="fname" />
+        <br />
+        <label for="lname">Last Name</label>
+        <br />
+        <input type="text" id="lname" />
+        <br />
+        <label for="email">Email</label>
+        <br />
+        <input type="text" id="email" />
+        <br />
+        <label for="PhoneNumber">Phone Number</label>
+        <br />
+        <input type="text" id="PhoneNumber" />
+        <br />
+      </form>
+      <div class="button">
+        <button type="button" class="btn btn-info">Submit</button>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,132 @@
+<!--Capstone IV-->
+<!--In this project I will be creating a website about my favorite hobby fishing-->
+<!--For my first page will be my home page. I will start of by linking the style sheets and bootstrap.-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>fishing My favourite Pastime</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../CSS/style1.css" />
+  </head>
+  <body>
+    <!--I start of by adding a header tag to the page-->
+    <header class="col-md-12 head1">Fishing My Favorite Hobby</header>
+    <div class="col-md-11 body">
+      <!--below I add the Navbar-->
+      <nav class="col-md-3 navbar">
+        <ul>
+          <li><a href="../HTML/index.html">HomePage</a></li>
+          <li><a href="../Webpages/index2.html">About Me</a></li>
+          <li><a href="../Webpages/index3.html">Categories of Fishing</a></li>
+          <li><a href="../HTML/forms.html">Contact me</a></li>
+          <li><a href="../HTML/saved.html">Save later</a></li>
+        </ul>
+      </nav>
+      <!--I then add add a h1 tag and a p tag below and add content-->
+      <div>
+        <h1 class="head2">What is fishing?</h1>
+
+        <p class="para1">
+          <b>So</b> what is fishing?, for those of you who dont know fishing is
+          the art of catching fish. Humans have been engaged in fishing since
+          ancient times by developing varies types of methods my personal
+          favourite being by rod and reel.Fishing can be done in a diverse
+          number of locations ranging from Alpine lakes,forest streams,ranging
+          rivers ,Crushing surf and even deep isolated parts of the great ocean.
+          It all depends what species of fish is on your <b>Hit-list.</b>
+        </p>
+        <!--I have add like buttons to my page by using the button tags when clicked it will display liked
+        I repeat this 5 times on this page-->
+        <button class="likeButton">👍</button>
+        <!-- I then add save for later buttons to the images and articles on my page when clicked it will save the item to the save later page-->
+        <button
+          onclick="saveImg('../img/2019-07-22-menna-and-family-hunting-in-the-marshes-mma-860x523.jpg')"
+        >
+          <img
+            class="col-md-6 img1"
+            src="../img/2019-07-22-menna-and-family-hunting-in-the-marshes-mma-860x523.jpg"
+            alt="ancient fishing"
+          />
+          Save for later
+        </button>
+        <!--I then ad the rest of the imgs ad buttons to save later-->
+        <button onclick="saveImg('../img/gear.jpg')">
+          <img class="col-md-6 img2" src="../img/gear.jpg" alt="fishing gear" />
+          Save for later
+        </button>
+        <button class="likeButton">👍</button>
+      </div>
+      <div>
+        <!-- I create a h2 tag and another p tag inside the paragraph I add b tags to bold the first and last words of my content-->
+        <h2 class="head3">What attracted me to fishing?</h2>
+
+        <p class="para2">
+          <b>When</b> I was younger I spent most of my spare time playing video
+          games. Looking outside my room window I which the days go by as I
+          played my Ps2 and I thought it would be nice to get out so I did. In
+          my quest to find a outdoor recreational activity I had my first
+          experince fishing on the peir in Kalk bay in Cape Town.Standing
+          watching the ocean with the smelling refreshing fragrances of the sea
+          and having the gusts of sea air lightly batter my body it really
+          awakens your senses. Even though I didn't catch anything that day I
+          was
+          <b>Hooked.</b>
+        </p>
+
+        <button class="likeButton">👍</button>
+        <button onclick="saveImg('../img/29_20140908125226_2914741_large.jpg')">
+          <img
+            class="col-md-6 img3"
+            src="../img/29_20140908125226_2914741_large.jpg"
+            alt="peir fishing"
+          />
+          Save for later
+        </button>
+        <button class="likeButton">👍</button>
+      </div>
+      <div>
+        <!-- I then create another h3 tag and a p tag for content-->
+        <h3 class="head4">What I like about fishing</h3>
+        <p class="para3">
+          <b>One</b> of Favourite things about fishing would be the peace. Its
+          so peaceful and relaxing to get out in nature to cast your line in the
+          water and just chill and wait for the fish to start biting. Another
+          thing I like about fishing would be the variety wether it be
+          salt-water or fresh-water environments or different types of tackle to
+          the many types of species to be caught fishing just never stops giving
+          in terms of the variety if things it offers. My final point that I
+          would like to add would be affordablity. Fishing is fairly affordable
+          which means that almost anyone can have fish no matter what type of
+          lifestyle you come from fishing is for <b>All.</b>
+        </p>
+        <button class="likeButton">👍</button>
+        <button
+          onclick="saveImg('../img/fishing-peaceful-river-lake-surrounded-by-tranquility-nature_875722-753.jpg')"
+        >
+          <img
+            class="col-md-6 img4"
+            src="../img/fishing-peaceful-river-lake-surrounded-by-tranquility-nature_875722-753.jpg"
+            alt="lake fishing"
+          />
+          Save for later
+        </button>
+      </div>
+    </div>
+    <!--I create a footer tag and use the blockquote tags to add a quote and a script tag at the bottom to add my js fle-->
+    <footer class="col-md-11 foot">
+      <blockquote>
+        A wise fisherman once said, "Fishing is a passion that can never be
+        explained."
+      </blockquote>
+    </footer>
+    <script type="text/javascript" src="index.js"></script>
+  </body>
+</html>

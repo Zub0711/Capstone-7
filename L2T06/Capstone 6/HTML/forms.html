@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="../CSS/style4.css" />
+
+    <title>Contact me</title>
+  </head>
+  <body onload="loadUp()">
+    <!--- I start ofd by creating a header with the header tag and below a p tag  -->
+    <header>Contact me</header>
+    <div class="col-md-12 para1">
+      <p>Please fill in the form below with your contact details</p>
+    </div>
+    <!--I then add the navbar -->
+    <div>
+      <nav class="col-md-3 navbar">
+        <ul>
+          <li><a href="../HTML/index.html">HomePage</a></li>
+          <li><a href="../Webpages/index2.html">About Me</a></li>
+          <li><a href="../Webpages/index3.html">Categories of Fishing</a></li>
+          <li><a href="../HTML/forms.html">Contact me</a></li>
+          <li><a href="../HTML/saved.html">Save later</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <!-- I then create a form so that the user can input there info if they wish to contact me-->
+    <form id="form1">
+      <label for="fName">Please your full name</label>
+      <input type="text" name="fName" id="fName" required />
+      <label for="number">Please enter your phone number </label>
+      <input type="text" name="number" id="number" required />
+      <label for="email">Please enter your email address</label>
+      <input type="text" name="email" id="email" required />
+      <label for="type">What method of contact do you prefer email/phone</label>
+      <input type="text" name="type" id="type" required />
+      <!-- I at the end of the form I add a button with the onclick function that alerts the user that there info has been saved-->
+      <button onclick="saveDetail()">Submit</button>
+    </form>
+    <div class="col-md-6 para2">
+      <p>Please leave a comment down below</p>
+    </div>
+    <!-- I then create a comments sectio nn below and a button that will alert the user that the comment is posted-->
+    <!-- and display the comments-->
+    <div class="col-md-2 comment-section">
+      <form id="form2">
+        <input id="Com-Name" type="text" placeholder="Name" />
+        <input id="Com-Email" type="text" placeholder="email" />
+        <textarea id="Com-section" rows="10" placeholder="Comment"></textarea>
+        <button onclick="post()">Post</button>
+      </form>
+    </div>
+    <div id="comments"></div>
+
+    <script type="text/javascript" src="forms.js"></script>
+  </body>
+</html>

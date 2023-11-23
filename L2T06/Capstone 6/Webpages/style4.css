@@ -1,0 +1,104 @@
+body {
+  background-color: navy;
+
+  padding: 5px;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  font-style: italic;
+  font-size: 35px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  text-align: center;
+  padding: 5px;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px solid snow;
+  color: snow;
+}
+#form1 {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  background-color: slategray;
+  color: aquamarine;
+  border: 2px dotted aquamarine;
+  display: flex;
+  border-radius: 5px;
+  font-size: 14px;
+  padding: 10px;
+}
+.para1 {
+  text-align: center;
+  font-style: italic;
+  font-size: 15px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  color: snow;
+}
+.comment-section {
+  width: 50%;
+  border: dotted 2px aquamarine;
+  background-color: slategray;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  font-family: "Courier New", Courier, monospace;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.para2 {
+  font-style: italic;
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  text-align: center;
+  padding: 5px;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px solid snow;
+  color: snow;
+  padding-top: 10px;
+  margin-top: auto;
+}
+
+.form2 {
+  width: 100%;
+  padding: 30px;
+  box-sizing: border-box;
+  outline: none;
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+  margin: auto;
+}
+.navbar {
+  border-radius: 10px;
+  border: 2px dotted aquamarine;
+  background-color: slategrey;
+  color: aquamarine;
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+  margin: auto;
+  text-align: left;
+  padding: 10px;
+}
+#comments {
+  text-align: center;
+  border-radius: 10px;
+  border: 2px dotted aquamarine;
+  background-color: slategrey;
+  color: aquamarine;
+  font-size: 15px;
+  padding: 10px;
+}
+a {
+  color: aquamarine;
+}

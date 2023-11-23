@@ -1,0 +1,62 @@
+body {
+  border-radius: 5px;
+  border: 5px solid snow;
+  background-color: navy;
+  padding: 2px;
+}
+.head {
+  text-align: center;
+  border-bottom: 5px solid snow;
+  padding: 5px;
+  color: snow;
+  font-style: italic;
+  font-size: 40px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.aboutme {
+  text-align: center;
+  background-color: slategray;
+  color: aquamarine;
+  border-radius: 5px;
+  border: 5px dotted aquamarine;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: auto;
+}
+.contact {
+  text-align: center;
+  background-color: slategray;
+  color: aquamarine;
+  border-radius: 5px;
+  border-bottom: 5px dotted aquamarine;
+  border-left: 5px dotted aquamarine;
+  border-right: 5px dotted aquamarine;
+  font-style: italic;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: auto;
+}
+.part3 {
+  text-align: center;
+  background-color: slategray;
+  color: aquamarine;
+  border-radius: 5px;
+  border-bottom: 5px dotted aquamarine;
+  border-left: 5px dotted aquamarine;
+  border-right: 5px dotted aquamarine;
+  font-style: italic;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: auto;
+}
+.navbar {
+  border-radius: 10px;
+  border: 5px dotted aquamarine;
+  background-color: slategrey;
+  color: aquamarine;
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+  margin: auto;
+  text-align: left;
+  padding: 10px;
+}
+a {
+  color: aquamarine;
+}
